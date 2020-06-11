@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" Visual="Material" Title="JwPlayer With Xamarin.Forms"
+             x:Class="JwPlayerXamarin.MainPage">
+
+        <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="200"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Button TextColor="White" BackgroundColor="Black"  Grid.Row="1" Text="Test With Dependency Service" Clicked="Button_Clicked"/>
+            
+        <Image Grid.Row="2" HorizontalOptions="FillAndExpand" 
+                   VerticalOptions="FillAndExpand" 
+                   Source="https://d1w82f5xc78wju.cloudfront.net/uploads/targetware/image/file/3351/jw-player.master.png" 
+                   Aspect="Fill"></Image>
+
+        <Button TextColor="Black" BackgroundColor="DeepPink"  Grid.Row="3" Text="Test With View Renderer" Clicked="Button_Clicked_1"/>
+
+
+    </Grid>
+        <!-- Place new controls here -->
+       
+
+</ContentPage>
