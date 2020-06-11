@@ -4,7 +4,7 @@ JwPlayer used with Xamarin.Forms Android
 
 ## Preview  Image
 
-<img src="https://github.com/andersonvieiragomeslopes/XamarinYoutube/blob/master/PreviewImage.png" width="50%">
+<img src="https://github.com/andersonvieiragomeslopes/XamarinJwPlayer/blob/master/PreviewImage.png" width="50%">
 
 <img src="https://github.com/andersonvieiragomeslopes/XamarinJwPlayer/blob/master/PreviewProject.gif" width="50%">
 
