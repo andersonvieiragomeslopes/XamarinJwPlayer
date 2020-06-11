@@ -1,6 +1,9 @@
 # Xamarin Forms JwPlayer
 JwPlayer used with Xamarin.Forms Android
 
+## Getting Started
+
+- For use, replace key in AndroidManifest and build
 
 ## Preview  Image
 
